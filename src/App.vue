@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
-    <Jobs />
+  <Jobs />
   </div>
 </template>
 
@@ -11,7 +10,7 @@ import Jobs from './components/Jobs.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Jobs
   }
 }
 </script>
